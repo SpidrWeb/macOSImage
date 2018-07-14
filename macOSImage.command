@@ -5,7 +5,8 @@
 ### Install Apps: Google Chrome, Google Drive File Stream, Slack, CarbonBlack AV, GlobalProtect VPN client + PLIST, YASU, GrandPerspective, AppCleaner, All office printers, launch XCODE tools installer, Meraki agent and mdm.config
 ### Install Settings: Turn on FileVault with a specific Keychain, Enable ARD, Turn off auto updates, create an Admin Rescue account called "pgrescue", installs PLIST for to give new accounts admin privileges.
 ### Work in progress: Bind to AD (dozer.plangrid.com) - testing with .mobileconfig file, Verification of items installed (apps and settings) - 
-### Github link: https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2FSpidrWeb%2FCompany-Mac-Image%2Fedit%2Fmaster%2FmacOSImage.command
+### Github link: https://raw.githubusercontent.com/SpidrWeb/macOSImage/master/macOSImage.command
+### Terminal run:  <curl https://raw.githubusercontent.com/SpidrWeb/macOSImage/master/macOSImage.command | bash -s arg1 arg2>
 
 # Files that are put in place with PKG (non scripted download / not using curl):
 #
