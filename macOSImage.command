@@ -38,7 +38,7 @@
 #Create folders as file repository
 sudo mkdir /Library/PGFiles
 sudo mkdir /Library/CarbonBlack
-sudo mkdir ~/Desktop/Logs
+#sudo mkdir ~/Desktop/Logs -- coming soon
 
 #Start downloading and installng...
 ##########################################################
