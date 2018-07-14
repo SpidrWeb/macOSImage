@@ -4,7 +4,7 @@
 ### This script will put a number of specific files in very specific locations, and download others in very specfic locations and perform the following:
 ### Install Apps: Google Chrome, Google Drive File Stream, Slack, CarbonBlack AV, GlobalProtect VPN client + PLIST, YASU, GrandPerspective, AppCleaner, All office printers, launch XCODE tools installer, Meraki agent and mdm.config
 ### Install Settings: Turn on FileVault with a specific Keychain, Enable ARD, Turn off auto updates, create an Admin Rescue account called "pgrescue", installs PLIST for to give new accounts admin privileges.
-### Work in progress: Bind to AD (dozer.plangrid.com) - testing with .mobileconfig file
+### Work in progress: Bind to AD (dozer.plangrid.com) - testing with .mobileconfig file, Verification of items installed (apps and settings) - 
 ### Github link: https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2FSpidrWeb%2FCompany-Mac-Image%2Fedit%2Fmaster%2FmacOSImage.command
 
 # Files that are put in place with PKG (non scripted download / not using curl):
@@ -38,6 +38,7 @@
 #Create folders as file repository
 sudo mkdir /Library/PGFiles
 sudo mkdir /Library/CarbonBlack
+sudo mkdir ~/Desktop/Logs
 
 #Start downloading and installng...
 ##########################################################
@@ -249,6 +250,7 @@ sudo launchctl load -w /Library/LaunchAgents/com.userprivs.pg.plist
 #Download XCode Tools - will launch UI installer
 xcode-select --install
 
+##########################################################
 
 
 
